@@ -16,4 +16,13 @@ public class TestMyMath {
 		assertEquals(resultado,4);
 	}
 	
+	public void AddMinusOneAndFourIsThree(){
+		//Arrange
+		MyMath myMath = new MyMath();
+		//Act
+		int resultado = myMath.add(-1, 4);
+		//Assert 
+		assertEquals(resultado,3);
+	}
+	
 }
